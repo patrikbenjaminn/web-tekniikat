@@ -1,0 +1,18 @@
+p{
+    font-family: 'Indie Flower', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+}
+.lead{
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+#navigationBar{
+    font-size: 1.2em;
+    margin: 10px;
+
+}
+body{
+    background-image: url('/Kuvat/cool-background4.png');
+}
