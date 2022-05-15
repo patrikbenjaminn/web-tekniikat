@@ -16,3 +16,6 @@ font-family: 'Roboto Flex', sans-serif;
 body{
     background-image: url('/Kuvat/cool-background4.png');
 }
+.texttop{
+    color: white;
+}
