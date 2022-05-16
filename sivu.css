@@ -19,3 +19,9 @@ body{
 .texttop{
     color: white;
 }
+.linkki{
+    color:rgb(0, 0, 0);
+}
+.linkki:hover{
+    color: aquamarine;
+}
