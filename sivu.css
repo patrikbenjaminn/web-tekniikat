@@ -25,3 +25,17 @@ body{
 .linkki:hover{
     color: aquamarine;
 }
+.nappula{
+    color: white;
+    text-decoration: none;
+}
+.hedi{
+    font-size: 1.5em;
+    
+    
+}
+/* Photo by Pixabay.com https://pixabay.com/fi/photos/meri-sumu-valtameri-aallot-1850228/ */
+.sivu2{
+    background-image: url('/Kuvat/sea-g6ce56053e_1920.jpg'); 
+    
+}

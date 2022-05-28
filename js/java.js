@@ -1,20 +1,11 @@
+$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Oulu&units=metric&mode=XML&APPID=be077300772d998ff80ddce8c64a4bf1", function(data){
 
+let ikoni = "http://api.openweathermap.org/img/w/" + data.weather[0].icon + ".png";
 
+let lampö = Math.floor(data.main.temp) + "°C";
+let saa = data.weather[0].main ;
 
-function button(){
-    let joku = document.getElementById("teksti").value;
-
-    let today = new Date()
-    let curHr = today.getHours()
-
-        if (curHr < 12) {
-  document.getElementById("vastaus").innerHTML = ('Hyvää huomenta ') + joku;
-    } else if (curHr < 18) {
-        document.getElementById("vastaus").innerHTML = ('Hyvää iltapäivää ') + joku;
-    } else {
-        document.getElementById("vastaus").innerHTML = ('Hyvää iltaa ') + joku;
-}
-    
-    //kommentti
-
-}
+$(".icon").attr('src', ikoni);
+$(".saa").append(saa);
+$(".Lämpötila").append(lampö);
+})
