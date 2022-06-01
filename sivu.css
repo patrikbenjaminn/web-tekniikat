@@ -14,7 +14,7 @@ font-family: 'Roboto Flex', sans-serif;
 
 }
 body{
-    background-image: url('/Kuvat/cool-background4.png');
+    background-image: url('./Kuvat/cool-background4.png');
 }
 .texttop{
     color: white;
@@ -36,7 +36,7 @@ body{
 }
 /* Photo by Pixabay.com https://pixabay.com/fi/photos/meri-sumu-valtameri-aallot-1850228/ */
 .sivu2{
-    background-image: url('/Kuvat/sea-g6ce56053e_1920.jpg'); 
+    background-image: url('./Kuvat/sea-g6ce56053e_1920.jpg'); 
     
 }
 #vihreä{
