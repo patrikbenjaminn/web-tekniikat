@@ -21,15 +21,21 @@ function doClick(){
 
 button.addEventListener("click", doClick);
 
-var mail = document.querySelector("#mail");
+    $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Jyvaskyla&units=metric&mode=XML&APPID=be077300772d998ff80ddce8c64a4bf1", function(data){
+    let ikon = "http://api.openweathermap.org/img/w/" + data.weather[0].icon + ".png";
 
-mail.addEventListener("click", maili );
+    let lampö2 = Math.floor(data.main.temp) + "°C";
+    let saa2 = data.weather[0].main ;
 
-function maili() {
-    let p = document.createElement("p");
-    let node = document.createTextNode("Kiitos yhteydenotosta");
-    p.appendChild(node);
-    let element = document.querySelector(".lead")
-    element.appendChild(p);
-    
+    $(".ikon").attr('src', ikon);
+    $(".saa2").append(saa);
+    $(".Lämpötila2").append(lampö);
+
+})
+
+var saa = document.querySelector("#saa");
+
+function change(){
+    ''
 }
+button.addEventListener("click", change );

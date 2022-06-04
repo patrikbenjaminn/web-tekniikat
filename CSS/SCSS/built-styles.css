@@ -1,0 +1,60 @@
+@charset "UTF-8";
+p {
+  font-family: "Indie Flower", cursive;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.lead {
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+}
+
+#navigationBar {
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+body {
+  background-image: url("/Kuvat/cool-background4.png");
+}
+
+.texttop h2 {
+  color: bisque;
+}
+
+.linkki {
+  color: rgb(0, 0, 0);
+}
+
+.linkki:hover {
+  color: aquamarine;
+}
+
+.nappula {
+  color: white;
+  text-decoration: none;
+}
+
+.hedi {
+  font-size: 1.5em;
+}
+
+/* Photo by Pixabay.com https://pixabay.com/fi/photos/meri-sumu-valtameri-aallot-1850228/ */
+.sivu2 {
+  background-image: url("/Kuvat/sea-g6ce56053e_1920.jpg");
+}
+
+#vihreä {
+  font-size: 2.5em;
+}
+
+div + p {
+  font-size: 1.2em;
+}
+div + p h2 {
+  color: bisque;
+}
+
+/*# sourceMappingURL=built-styles.css.map */
