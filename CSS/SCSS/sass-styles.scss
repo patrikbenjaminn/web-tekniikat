@@ -21,6 +21,11 @@ font-family: 'Roboto Flex', sans-serif;
 }
 body{
     background-image: url('/Kuvat/cool-background4.png');
+    .hedi{
+        font-size: 1.5em;
+        
+        
+    }
 }
 .texttop{
     @include theme;
@@ -36,11 +41,7 @@ body{
     color: white;
     text-decoration: none;
 }
-.hedi{
-    font-size: 1.5em;
-    
-    
-}
+
 /* Photo by Pixabay.com https://pixabay.com/fi/photos/meri-sumu-valtameri-aallot-1850228/ */
 .sivu2{
     background-image: url('/Kuvat/sea-g6ce56053e_1920.jpg'); 

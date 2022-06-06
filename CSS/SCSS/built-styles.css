@@ -19,6 +19,9 @@ p {
 body {
   background-image: url("/Kuvat/cool-background4.png");
 }
+body .hedi {
+  font-size: 1.5em;
+}
 
 .texttop h2 {
   color: bisque;
@@ -35,10 +38,6 @@ body {
 .nappula {
   color: white;
   text-decoration: none;
-}
-
-.hedi {
-  font-size: 1.5em;
 }
 
 /* Photo by Pixabay.com https://pixabay.com/fi/photos/meri-sumu-valtameri-aallot-1850228/ */
